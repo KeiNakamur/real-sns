@@ -1,0 +1,46 @@
+.profile {
+    display: flex;
+}
+
+.profileRight {
+    display: 2;
+}
+
+.profileCover {
+    height: 320px;
+    position: relative;
+}
+
+.profileCoverImg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profileUserImage {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* margin:autoで上下左右にいい感じにmarginを当ててくれる */
+    margin: auto;
+    top: 150px;
+    right: 0;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileInfoName {
+    font-size: 24px;
+}
+
+.profileRightBottom {
+    display: flex;
+
+}

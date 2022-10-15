@@ -1,0 +1,8 @@
+/* 大元のHome.cssでdisplay flexを当てているので、比率で指定できる */
+.timeline {
+    flex: 6;
+}
+
+.timelineWrapper {
+    padding: 20px;
+}

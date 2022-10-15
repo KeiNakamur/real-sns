@@ -1,0 +1,85 @@
+.post {
+    width: 100%;
+    box-shadow: 3px 7px 12px -10px #7c7c7e;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.postWrapper {
+    padding: 10px;
+}
+
+.postProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.postTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postUserName {
+    font-size: 15px;
+    font-weight: 550;
+    margin: 0 auto;
+}
+
+.postDate {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.postCenter {
+    margin: 20px 0;
+}
+
+.postImg {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    /* containの方が見た目が良さそ？ */
+    object-fit: contain;
+}
+
+.postBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likeIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.postBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postLikeCounter {
+    font-size: 15px;
+}
+
+.postCommentText {
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.postTopRight {
+    cursor: pointer;
+}
